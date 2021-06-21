@@ -44,39 +44,22 @@ namespace FundooApplication.Controllers
             return this.Ok(new { token = token, success = true, message = "Token Generated Successfull" });
         }
 
-        //[AllowAnonymous]
-        //[HttpPost("forgotpassword")]
-        //    public ActionResult ForgotPassword(Users user)
-        //    {
-        //        try
-        //        {
-        //            bool isExist = this.userBl.ForgotPassword(user.Email);
-        //            if (isExist) return Ok(new { success = true, message = $"Reset Link sent to {user.Email}" });
-        //            else return BadRequest(new { success = false, message = $"No user Exist with {user.Email}" });
+        [AllowAnonymous]
+        [HttpPost("forgot-password")]
+        public ActionResult ForgotPassword(Users user)
+        {
+            try
+            {
+                bool isExist = this.userBl.ForgotPassword(user.Email);
+                if (isExist) return Ok(new { success = true, message = $"Reset Link sent to {user.Email}" });
+                else return BadRequest(new { success = false, message = $"No user Exist with {user.Email}" });
 
-        //        }
-        //        catch (Exception e)
-        //        {
-        //            throw new Exception(e.Message);
-        //        }
-        //    }
-
-        //    [HttpPut("resetpassword")]
-        //    public ActionResult ResetPassword(Users user)
-        //    {
-        //        try
-        //        {
-        //            var UserEmailObject = User.Claims.FirstOrDefault(x => x.Type.ToString().Equals("Email", StringComparison.InvariantCultureIgnoreCase));
-        //            this.userBl.ChangePassword(UserEmailObject.Value, user.Password);
-        //            //return Ok($"Updated Email: {UserEmailObject.Value} NewPassword: {user.Password}");
-        //            return Ok(new { success = true, message = "Password Changed Sucessfully", email = $"{UserEmailObject.Value}" });
-        //        }
-        //        catch (Exception e)
-        //        {
-        //            throw new Exception(e.Message);
-        //        }
-        //    }
-        //}
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
     }
 }
 
