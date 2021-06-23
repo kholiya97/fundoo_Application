@@ -10,3 +10,15 @@ C:\Users\kholi\source\repos\FundooApplication\CommonLayer\obj\Debug\netcoreapp3.
 C:\Users\kholi\source\repos\FundooApplication\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.runtimeconfig.json
 C:\Users\kholi\source\repos\FundooApplication\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.runtimeconfig.dev.json
 C:\Users\kholi\source\repos\FundooApplication\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.genruntimeconfig.cache
+C:\Users\kholi\Downloads\fundoo_Application-FORGOT_PASSWORD\fundoo_Application-FORGOT_PASSWORD\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.deps.json
+C:\Users\kholi\Downloads\fundoo_Application-FORGOT_PASSWORD\fundoo_Application-FORGOT_PASSWORD\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.runtimeconfig.json
+C:\Users\kholi\Downloads\fundoo_Application-FORGOT_PASSWORD\fundoo_Application-FORGOT_PASSWORD\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.runtimeconfig.dev.json
+C:\Users\kholi\Downloads\fundoo_Application-FORGOT_PASSWORD\fundoo_Application-FORGOT_PASSWORD\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.dll
+C:\Users\kholi\Downloads\fundoo_Application-FORGOT_PASSWORD\fundoo_Application-FORGOT_PASSWORD\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.pdb
+C:\Users\kholi\Downloads\fundoo_Application-FORGOT_PASSWORD\fundoo_Application-FORGOT_PASSWORD\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.csprojAssemblyReference.cache
+C:\Users\kholi\Downloads\fundoo_Application-FORGOT_PASSWORD\fundoo_Application-FORGOT_PASSWORD\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.AssemblyInfoInputs.cache
+C:\Users\kholi\Downloads\fundoo_Application-FORGOT_PASSWORD\fundoo_Application-FORGOT_PASSWORD\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.AssemblyInfo.cs
+C:\Users\kholi\Downloads\fundoo_Application-FORGOT_PASSWORD\fundoo_Application-FORGOT_PASSWORD\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.csproj.CoreCompileInputs.cache
+C:\Users\kholi\Downloads\fundoo_Application-FORGOT_PASSWORD\fundoo_Application-FORGOT_PASSWORD\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.dll
+C:\Users\kholi\Downloads\fundoo_Application-FORGOT_PASSWORD\fundoo_Application-FORGOT_PASSWORD\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.pdb
+C:\Users\kholi\Downloads\fundoo_Application-FORGOT_PASSWORD\fundoo_Application-FORGOT_PASSWORD\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.genruntimeconfig.cache

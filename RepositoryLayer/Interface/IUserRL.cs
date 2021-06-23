@@ -9,7 +9,8 @@ namespace RepositoryLayer
     {
         Users AddUser(Users user);
         string Login(string email, string password);
-        //bool ForgotPassword(string email);
-        //void ChangePassword(string email, string newPassword);
+        bool ForgotPassword(string email);
+        void ChangePassword(string email, string newPassword);
+
     }
 }

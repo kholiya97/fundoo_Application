@@ -7,7 +7,7 @@ namespace BusinessLayer.Services
 {
     public class UserBL : IUserBL
     {
-    IUserRL userRl;
+        IUserRL userRl;
 
         public UserBL(IUserRL userRl)
         {
@@ -22,29 +22,31 @@ namespace BusinessLayer.Services
         {
             return this.userRl.Login(email, password);
         }
-        //public void ChangePassword(string email, string newPassword)
-        //{
-        //    try
-        //    {
-        //        this.userRl.ChangePassword(email, newPassword);
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        throw new Exception(e.Message);
-        //    }
-        //}
 
-        //public bool ForgotPassword(string email)
-        //{
-        //    try
-        //    {
-        //        return this.userRl.ForgotPassword(email);
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        throw new Exception(e.Message);
-        //    }
-        //}
 
+        public bool ForgotPassword(string email)
+        {
+            try
+            {
+                return this.userRl.ForgotPassword(email);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+
+        }
+        public void ChangePassword(string email, string newPassword)
+        {
+            try
+            {
+                this.userRl.ChangePassword(email, newPassword);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
     }
 }
+
