@@ -83,11 +83,11 @@ namespace FundooApplication.Controllers
         }
 
         [HttpPut("UpdatePin")]
-        public ActionResult UpdatePin(int id, bool IsPin)
+        public ActionResult UpdatePin(Note note)
         {
             try
             {
-                this.noteBl.UpdatePin(id, IsPin);
+                this.noteBl.UpdatePin(note);
                 return Ok(new { success = true, message = "Pin Updated Successfully " });
 
             }
@@ -119,6 +119,36 @@ namespace FundooApplication.Controllers
             {
                 this.noteBl.UpdateColour(note);
                 return Ok(new { success = true, message = "Colour Updated Successfully " });
+
+            }
+            catch (Exception e)
+            {
+                return BadRequest(new { success = false, message = "Note is null" });
+            }
+        }
+
+        [HttpPut("UpdateTrash")]
+        public ActionResult UpdateTrash(Note note)
+        {
+            try
+            {
+                this.noteBl.UpdateTrash(note);
+                return Ok(new { success = true, message = "Trash Updated Successfully " });
+
+            }
+            catch (Exception e)
+            {
+                return BadRequest(new { success = false, message = "Note is null" });
+            }
+        }
+
+        [HttpPut("UpdateArchive")]
+        public ActionResult UpdateArchive(Note note)
+        {
+            try
+            {
+                this.noteBl.UpdateArchive(note);
+                return Ok(new { success = true, message = "Archive Updated Successfully " });
 
             }
             catch (Exception e)

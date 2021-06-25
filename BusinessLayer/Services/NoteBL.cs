@@ -36,9 +36,9 @@ namespace BusinessLayer.Services
         {
             this.noteRl.UpdateNotes(note);
         }
-        public void UpdatePin(int id, bool IsPin)
+        public void UpdatePin(Note note)
         {
-            this.noteRl.UpdatePin(id, IsPin);
+            this.noteRl.UpdatePin(note);
         }
         public void UpdateReminder(Note note)
         {
@@ -47,6 +47,14 @@ namespace BusinessLayer.Services
         public void UpdateColour(Note note)
         {
             this.noteRl.UpdateColour(note);
+        }
+        public void UpdateTrash(Note note)
+        {
+            this.noteRl.UpdateTrash(note);
+        }
+        public void UpdateArchive(Note note)
+        {
+            this.noteRl.UpdateArchive(note);
         }
     }
 }

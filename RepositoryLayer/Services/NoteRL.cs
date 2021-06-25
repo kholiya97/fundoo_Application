@@ -64,18 +64,18 @@ namespace RepositoryLayer.Services
                 throw new Exception(e.Message);
             }
         }
-        public void UpdatePin(int id, bool IsPin)
+        public void UpdatePin(Note note)
         {
             try
             {
-                var result = _userDbContext.Notes.FirstOrDefault(n => n.NoteID == id);
+                var result = _userDbContext.Notes.FirstOrDefault(n => n.NoteID == note.NoteID);
                 if (result == null)
                 {
                     throw new Exception("No such Pin Exist");
                 }
                 else
                 {
-                    result.IsPin = IsPin;
+                    result.IsPin = note.IsPin;
                     _userDbContext.SaveChanges();
                 }
             }
@@ -116,6 +116,46 @@ namespace RepositoryLayer.Services
                 else
                 {
                     result.Color = note.Color;
+                    _userDbContext.SaveChanges();
+                }
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+        public void UpdateTrash(Note note)
+        {
+            try
+            {
+                var result = _userDbContext.Notes.FirstOrDefault(n => n.NoteID == note.NoteID);
+                if (result == null)
+                {
+                    throw new Exception("No such Pin Exist");
+                }
+                else
+                {
+                    result.IsTrash = note.IsTrash;
+                    _userDbContext.SaveChanges();
+                }
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+        public void UpdateArchive(Note note)
+        {
+            try
+            {
+                var result = _userDbContext.Notes.FirstOrDefault(n => n.NoteID == note.NoteID);
+                if (result == null)
+                {
+                    throw new Exception("No such Pin Exist");
+                }
+                else
+                {
+                    result.IsArchive = note.IsArchive;
                     _userDbContext.SaveChanges();
                 }
             }
