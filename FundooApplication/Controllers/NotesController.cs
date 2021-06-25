@@ -66,6 +66,21 @@ namespace FundooApplication.Controllers
                 return BadRequest(new { success = false, message = "Note is null" });
             }
         }
+
+        [HttpPut("UpdateNote")]
+        public ActionResult UpdateNotes(Note note)
+        {
+            try
+            {
+                this.noteBl.UpdateNotes(note);
+                return Ok(new { success = true, message = "Notes Updates Successfully " });
+
+            }
+            catch (Exception e)
+            {
+                return BadRequest(new { success = false, message = "Note is null" });
+            }
+        }
     }
 }
 

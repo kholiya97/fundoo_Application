@@ -43,5 +43,26 @@ namespace RepositoryLayer.Services
 
             }
         }
+        public void UpdateNotes(Note note)
+        {
+            try
+            {
+                var result = _userDbContext.Notes.FirstOrDefault(n => n.NoteID == note.NoteID);
+                if (result == null)
+                {
+                    throw new Exception("No such Notes Exist");
+                }
+                else
+                {
+                    result.Title = note.Title;
+                    result.Text = note.Text;
+                    _userDbContext.SaveChanges();
+                }
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
     }
 }

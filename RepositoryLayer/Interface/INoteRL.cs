@@ -11,6 +11,7 @@ namespace RepositoryLayer.Interface
         Note GetNoteById(int id);
         Note AddNotes(Note note);
         void DeleteNote(int id);
+        void UpdateNotes(Note note);
 
     }
 }

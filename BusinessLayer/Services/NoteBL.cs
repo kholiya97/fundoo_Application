@@ -32,5 +32,9 @@ namespace BusinessLayer.Services
         {
             this.noteRl.DeleteNote(id);
         }
+        public void UpdateNotes(Note note)
+        {
+            this.noteRl.UpdateNotes(note);
+        }
     }
 }
