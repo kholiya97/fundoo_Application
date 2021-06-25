@@ -64,5 +64,45 @@ namespace RepositoryLayer.Services
                 throw new Exception(e.Message);
             }
         }
+        public void UpdatePin(int id, bool IsPin)
+        {
+            try
+            {
+                var result = _userDbContext.Notes.FirstOrDefault(n => n.NoteID == id);
+                if (result == null)
+                {
+                    throw new Exception("No such Pin Exist");
+                }
+                else
+                {
+                    result.IsPin = IsPin;
+                    _userDbContext.SaveChanges();
+                }
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+        public void UpdateReminder(Note note)
+        {
+            try
+            {
+                var result = _userDbContext.Notes.FirstOrDefault(n => n.NoteID == note.NoteID);
+                if (result == null)
+                {
+                    throw new Exception("No such Pin Exist");
+                }
+                else
+                {
+                    result.ReminderOn = note.ReminderOn;
+                    _userDbContext.SaveChanges();
+                }
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
     }
 }

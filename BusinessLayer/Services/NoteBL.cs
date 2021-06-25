@@ -36,5 +36,13 @@ namespace BusinessLayer.Services
         {
             this.noteRl.UpdateNotes(note);
         }
+        public void UpdatePin(int id, bool IsPin)
+        {
+            this.noteRl.UpdatePin(id, IsPin);
+        }
+        public void UpdateReminder(Note note)
+        {
+            this.noteRl.UpdateReminder(note);
+        }
     }
 }
