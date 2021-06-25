@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\BusinessLayer\\BusinessLayer.csproj": {}
+    "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\BusinessLayer\\BusinessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\kholi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kholi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\RepositoryLayer\\RepositoryLayer.csproj": {
-                "projectPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\RepositoryLayer\\RepositoryLayer.csproj"
+              "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\RepositoryLayer\\RepositoryLayer.csproj"
               }
             }
           }
@@ -106,14 +106,14 @@
         }
       }
     },
-    "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\CommonLayer\\CommonLayer.csproj": {
+    "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\CommonLayer\\CommonLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\CommonLayer\\CommonLayer.csproj",
+        "projectUniqueName": "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\CommonLayer\\CommonLayer.csproj",
         "projectName": "CommonLayer",
-        "projectPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\CommonLayer\\CommonLayer.csproj",
+        "projectPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\CommonLayer\\CommonLayer.csproj",
         "packagesPath": "C:\\Users\\kholi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\CommonLayer\\obj\\",
+        "outputPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\CommonLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kholi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -200,14 +200,14 @@
         }
       }
     },
-    "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\RepositoryLayer\\RepositoryLayer.csproj": {
+    "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\RepositoryLayer\\RepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectUniqueName": "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\RepositoryLayer\\RepositoryLayer.csproj",
         "projectName": "RepositoryLayer",
-        "projectPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\RepositoryLayer\\RepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\kholi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\RepositoryLayer\\obj\\",
+        "outputPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\RepositoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kholi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -224,8 +224,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\CommonLayer\\CommonLayer.csproj": {
-                "projectPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\CommonLayer\\CommonLayer.csproj"
+              "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\CommonLayer\\CommonLayer.csproj": {
+                "projectPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\CommonLayer\\CommonLayer.csproj"
               }
             }
           }

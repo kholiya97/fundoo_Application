@@ -9,7 +9,7 @@ using System.Linq;
 
 namespace FundooApplication.Controllers
 {
-    [Authorize]
+   // [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
@@ -60,6 +60,7 @@ namespace FundooApplication.Controllers
                 throw new Exception(e.Message);
             }
         }
+      [AllowAnonymous]
         [HttpPut("reset-password")]
         public ActionResult ResetPassword(UserNewPassword user)
         {

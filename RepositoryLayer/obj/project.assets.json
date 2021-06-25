@@ -8279,11 +8279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\RepositoryLayer\\RepositoryLayer.csproj",
+      "projectUniqueName": "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\RepositoryLayer\\RepositoryLayer.csproj",
       "projectName": "RepositoryLayer",
-      "projectPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\RepositoryLayer\\RepositoryLayer.csproj",
+      "projectPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\RepositoryLayer\\RepositoryLayer.csproj",
       "packagesPath": "C:\\Users\\kholi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\RepositoryLayer\\obj\\",
+      "outputPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\RepositoryLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kholi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8300,8 +8300,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\CommonLayer\\CommonLayer.csproj": {
-              "projectPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\CommonLayer\\CommonLayer.csproj"
+            "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\CommonLayer\\CommonLayer.csproj": {
+              "projectPath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\CommonLayer\\CommonLayer.csproj"
             }
           }
         }

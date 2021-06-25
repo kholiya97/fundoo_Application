@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2r5SVASAAyg8K80hBI+YytFV094F5S5YIJtkQk+tFnChxjo+I03LnbKPVzXOy/QvHbo/+TcHfsaIjkH1OzLkrA==",
+  "dgSpecHash": "siU6347wb4P5zi4N51j+/jqg5Z4R3QEZCobiOi1DVulzxCYGolb7Lml3+ZrOblQw4GfPyMjNiPtE2u59RjqRhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-FORGOT_PASSWORD\\fundoo_Application-FORGOT_PASSWORD\\FundooApplication\\FundooApplication.csproj",
+  "projectFilePath": "C:\\Users\\kholi\\Downloads\\fundoo_Application-ER_DIAGRAM_NOTES\\fundoo_Application-ER_DIAGRAM_NOTES\\FundooApplication\\FundooApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kholi\\.nuget\\packages\\experimental.system.messaging\\1.1.0\\experimental.system.messaging.1.1.0.nupkg.sha512",
     "C:\\Users\\kholi\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.1\\microsoft.aspnetcore.authentication.jwtbearer.3.1.1.nupkg.sha512",
