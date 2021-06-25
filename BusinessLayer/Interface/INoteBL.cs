@@ -14,5 +14,6 @@ namespace BusinessLayer.Interface
         void UpdateNotes(Note note);
         void UpdatePin(int id, bool IsPin);
         void UpdateReminder(Note note);
+        void UpdateColour(Note note);
     }
 }

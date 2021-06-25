@@ -104,5 +104,25 @@ namespace RepositoryLayer.Services
                 throw new Exception(e.Message);
             }
         }
+        public void UpdateColour(Note note)
+        {
+            try
+            {
+                var result = _userDbContext.Notes.FirstOrDefault(n => n.NoteID == note.NoteID);
+                if (result == null)
+                {
+                    throw new Exception("No such Pin Exist");
+                }
+                else
+                {
+                    result.Color = note.Color;
+                    _userDbContext.SaveChanges();
+                }
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
     }
 }

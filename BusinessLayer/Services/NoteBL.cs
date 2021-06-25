@@ -44,5 +44,9 @@ namespace BusinessLayer.Services
         {
             this.noteRl.UpdateReminder(note);
         }
+        public void UpdateColour(Note note)
+        {
+            this.noteRl.UpdateColour(note);
+        }
     }
 }
