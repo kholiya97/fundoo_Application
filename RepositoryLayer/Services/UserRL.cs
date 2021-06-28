@@ -31,12 +31,13 @@ namespace RepositoryLayer.Services
             if (result == null)
                 return null;
             var tokenHandler = new JwtSecurityTokenHandler();
-            var tokenKey = Encoding.ASCII.GetBytes("HelloThisTokenIsGeneretedByMe");
+            var tokenKey = Encoding.ASCII.GetBytes("ilovecodingilovecodingilovecoding");
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[]
                 {
-                    new Claim(ClaimTypes.Email, email)
+                   new Claim("Email",email),
+                    new Claim("UserID",result.UserId.ToString()),
 
                 }),
                 Expires = DateTime.UtcNow.AddDays(7),

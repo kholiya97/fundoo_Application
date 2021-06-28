@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Interface;
 using CommonLayer.DataBase;
+using CommonLayer.RequestModel;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -38,18 +39,28 @@ namespace FundooApplication.Controllers
             return Ok(note);
         }
 
+        [Authorize]
         [HttpPost("AddNotes")]
-        public ActionResult AddNotes(Note note)
+        public ActionResult AddNotes(RequestNotes note)
         {
             try
             {
-                this.noteBl.AddNotes(note);
-                return this.Ok(new { success = true, message = "Notes Added Successful " });
+                var id = User.Claims.FirstOrDefault(u => u.Type.ToString().Equals("UserID", StringComparison.OrdinalIgnoreCase));
+                note.UserId = Int32.Parse(id.Value);
+                if (note.UserId != null)
+                {
+                    this.noteBl.AddNotes(note);
+                    return this.Ok(new { success = true, message = "Notes Added Successful " });
+                }
+                else
+                {
+                    return this.BadRequest(new { success = false, message = "No Such UserId Exist" });
+                }
             }
 
             catch (Exception e)
             {
-                return this.BadRequest(new { success = false, message = e.Message });
+                return this.BadRequest(new { success = false, message = "No Such UserId Exist" });
             }
         }
 

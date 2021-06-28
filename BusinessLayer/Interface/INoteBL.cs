@@ -1,4 +1,5 @@
 ﻿using CommonLayer.DataBase;
+using CommonLayer.RequestModel;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,7 +10,7 @@ namespace BusinessLayer.Interface
     {
         IEnumerable<Note> GetAll();
         Note GetNoteById(int id);
-        Note AddNotes(Note note);
+        void AddNotes(RequestNotes note);
         void DeleteNote(int id);
         void UpdateNotes(Note note);
         void UpdatePin(Note note);

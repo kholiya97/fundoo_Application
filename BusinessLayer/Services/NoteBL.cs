@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Interface;
 using CommonLayer.DataBase;
+using CommonLayer.RequestModel;
 using RepositoryLayer.Interface;
 using System;
 using System.Collections.Generic;
@@ -23,10 +24,10 @@ namespace BusinessLayer.Services
         {
             return this.noteRl.GetNoteById(id);
         }
-        public Note AddNotes(Note Note)
+        public void AddNotes(RequestNotes Note)
         {
             this.noteRl.AddNotes(Note);
-            return Note;
+            //return Note;
         }
         public void DeleteNote(int id)
         {

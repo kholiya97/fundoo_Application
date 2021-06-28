@@ -45,7 +45,7 @@ namespace FundooApplication
                 x.TokenValidationParameters = new TokenValidationParameters
                 {
                     ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("ilovecoding")),
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("ilovecodingilovecodingilovecoding")),
                     ValidateIssuer = false,
                     ValidateAudience = false
                 };
